@@ -1,42 +1,21 @@
-/* General Page Styles */
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: #fef5ff;
+    background-color: #fff5fa;
     color: #444;
     margin: 0;
     padding: 0;
 }
 
-/* Header Styling */
 header {
-    background-color: #ff9ed9;
+    background-color: #ff92c2;
     color: white;
     padding: 20px;
     font-size: 1.2em;
-    border-radius: 0 0 20px 20px;
 }
 
-/* Navigation Bar */
-nav {
-    margin: 15px 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: #ff69b4;
-    font-weight: bold;
-    margin: 0 15px;
-    font-size: 1.1em;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Section Styling */
 section {
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 20px;
     max-width: 600px;
     background-color: white;
@@ -44,15 +23,12 @@ section {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Image Styling */
 img {
-    border-radius: 15px;
-    margin: 15px 0;
     width: 100%;
     max-width: 300px;
+    border-radius: 15px;
 }
 
-/* Button Styling */
 button {
     padding: 12px 20px;
     background-color: #ff69b4;
@@ -66,14 +42,4 @@ button {
 
 button:hover {
     background-color: #ff1493;
-}
-
-/* Contact Section */
-#contact a {
-    color: #ff69b4;
-    text-decoration: none;
-}
-
-#contact a:hover {
-    text-decoration: underline;
 }

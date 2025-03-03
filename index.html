@@ -3,61 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome ✨</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <title>My Vision Board ✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-
-    <!-- Header Section -->
     <header>
-        <h1>🌸 Build Your First Website! 🌸</h1>
-        <p>Get ready for an amazing time filled with fun, connection, and inspiration!</p>
+        <h1>🌟 My Digital Vision Board 🌟</h1>
+        <p>A space to visualize my dreams and goals!</p>
     </header>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="#about">About</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About This Event</h2>
-        <p>This is a special gathering where we uplift, empower, and celebrate each other! 💕</p>
-        
-        <!-- Add an image -->
-        <img src="your-image.jpg" alt="Event vibes ✨" width="300">
-
-        <!-- Cute Quote -->
-        <blockquote>"Empowered women empower women!"</blockquote>
+    <section id="goals">
+        <h2>💖 My Goals</h2>
+        <p>Write your biggest dreams here!</p>
     </section>
 
-    <!-- Schedule Section -->
-    <section id="schedule">
-        <h2>📅 Event Schedule</h2>
-        <ul>
-            <li>✨ TBD </li>
-            <li> TBD </li>
-            <li> TBD ✨ </li>
-        </ul>
+    <section id="images">
+        <h2>📸 My Inspiration</h2>
+        <p>Add images that inspire you!</p>
+        <img src="/goals.webp" alt="Inspiration">
     </section>
 
-    <!-- Button with basic interaction -->
-    <button onclick="changeText()">Click for a Surprise! 🎀</button>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>📩 Contact Us</h2>
-        <p>Email: <a href="degganfarah1@email.com">your@email.com</a></p>
+    <section id="quote">
+        <h2>💬 My Favorite Quote</h2>
+        <p id="quote-text">"The future belongs to those who believe in the beauty of their dreams." – Eleanor Roosevelt</p>
     </section>
 
-    <!-- JavaScript for interaction -->
-    <script>
-        function changeText() {
-            document.getElementById("message").innerText = "You can do anything you put your mind to! 💖";
-        }
-    </script>
+    <button onclick="changeQuote()">Change Quote</button>
 
+    <script src="script.js"></script>
 </body>
 </html>
+
+
